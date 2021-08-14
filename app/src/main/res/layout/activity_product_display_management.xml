@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7D96AA"
+    tools:context=".product_display_management">
+
+    <TextView
+        android:id="@+id/product_display1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/product_display1"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cart" />
+
+    <ImageView
+        android:id="@+id/dis_img1"
+        android:layout_width="113dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_display1"
+        app:srcCompat="@drawable/dress1" />
+
+    <ImageView
+        android:id="@+id/dis_img5"
+        android:layout_width="117dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dis_btn3"
+        app:srcCompat="@drawable/dress2" />
+
+    <ImageView
+        android:id="@+id/dis_img4"
+        android:layout_width="121dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dis_btn2"
+        app:srcCompat="@drawable/dress3" />
+
+    <ImageView
+        android:id="@+id/dis_img3"
+        android:layout_width="114dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/dis_img4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dis_btn1"
+        app:srcCompat="@drawable/dress4" />
+
+    <ImageView
+        android:id="@+id/dis_img6"
+        android:layout_width="126dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toEndOf="@+id/dis_img5"
+        app:layout_constraintTop_toBottomOf="@+id/dis_btn4"
+        app:srcCompat="@drawable/dress5" />
+
+    <ImageView
+        android:id="@+id/dis_img2"
+        android:layout_width="116dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/dis_img1"
+        app:layout_constraintTop_toBottomOf="@+id/product_display1"
+        app:srcCompat="@drawable/dresspic2" />
+
+    <Button
+        android:id="@+id/dis_btn1"
+        android:layout_width="111dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/dis_btn1"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dis_img1" />
+
+    <Button
+        android:id="@+id/dis_btn2"
+        android:layout_width="117dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/dis_btn2"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dis_btn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toEndOf="@+id/dis_btn1" />
+
+    <Button
+        android:id="@+id/dis_btn3"
+        android:layout_width="113dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/dis_btn3"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintEnd_toStartOf="@+id/dis_btn4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dis_img3" />
+
+    <Button
+        android:id="@+id/dis_btn4"
+        android:layout_width="121dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:text="@string/dis_btn4"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dis_btn3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/dis_btn5"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/dis_btn5"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dis_img5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/dis_btn6"
+        android:layout_width="126dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/dis_btn6"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dis_btn5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toEndOf="@+id/dis_btn5" />
+
+    <ImageView
+        android:id="@+id/img_cart"
+        android:layout_width="67dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_search"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cart" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/cart"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/img_cart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="104dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_search"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBottom_toTopOf="@+id/product_display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

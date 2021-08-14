@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Product Management</string>
+    <string name="btn1">Dressers</string>
+    <string name="btn2">Pant/Top</string>
+    <string name="btn3">Skirt</string>
+    <string name="btn4">Party Wear</string>
+    <string name="prof_topic">Bello Pant</string>
+    <string name="prof_tv1">Product Details</string>
+    <string name="prof_t1">Design Name :</string>
+    <string name="prof_t2">Design Category :</string>
+    <string name="prof_t3">Designer :</string>
+    <string name="prof_t4">Price :</string>
+    <string name="prof_t5">Quantity :</string>
+    <string name="prof_ta2">Pant</string>
+    <string name="prof_ta3">Mr. Derik</string>
+    <string name="prof_ta4">3,200/=</string>
+    <string name="prof_ta5">30</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="product_display1">Dresses</string>
+
+    <string name="insert_heading">Insert Designs</string>
+    <string name="insert_t1">Design Name</string>
+    <string name="insert_t2">Design Category</string>
+    <string name="dis_btn1">melly</string>
+    <string name="dis_btn2">perri</string>
+    <string name="dis_btn3">eric</string>
+    <string name="dis_btn4">Sarita</string>
+    <string name="dis_btn5">melis</string>
+    <string name="dis_btn6">villa</string>
+    <string name="insert_btn">Insert</string>
+    <string name="insert_tv1" />
+    <string name="insert_tv2" />
+    <string name="insert_tv3" />
+    <string name="insert_tv4" />
+    <string name="insert_tv5" />
+    <string name="insert_t3">Designer</string>
+    <string name="insert_t4">Price</string>
+    <string name="insert_t5">Quantity</string>
+    <string name="cart_btn">Add To Cart</string>
+    <string name="cart">Cart</string>
+    <string name="btn_search">Search</string>
+    <string name="prof_ta1">Bello</string>
+
+
+</resources>

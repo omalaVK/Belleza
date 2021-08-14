@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFCFD"
+    tools:context=".Insert_product_managemnet">
+
+    <TextView
+        android:id="@+id/insert_heading"
+        android:layout_width="228dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/insert_heading"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/insert_t1"
+        android:layout_width="112dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/insert_t1"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert_heading" />
+
+    <TextView
+        android:id="@+id/insert_t2"
+        android:layout_width="127dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/insert_t2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/insert_tv2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert_t1" />
+
+    <TextView
+        android:id="@+id/insert_t3"
+        android:layout_width="107dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/insert_t3"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert_t2" />
+
+    <TextView
+        android:id="@+id/insert_t4"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/insert_t4"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert_t3" />
+
+    <TextView
+        android:id="@+id/insert_t5"
+        android:layout_width="121dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/insert_t5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert_t4" />
+
+    <EditText
+        android:id="@+id/insert_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/insert_tv2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/insert_t2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/insert_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/insert_tv3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/insert_t3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/insert_t3" />
+
+    <EditText
+        android:id="@+id/insert_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/insert_tv4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/insert_t4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/insert_t4" />
+
+    <EditText
+        android:id="@+id/insert_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/insert_tv5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/insert_t5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/insert_t5" />
+
+    <EditText
+        android:id="@+id/insert_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/insert_tv1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/insert_t1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="134dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/insert_btn"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert_t5"
+        app:layout_constraintVertical_bias="0.256" />
+</androidx.constraintlayout.widget.ConstraintLayout>

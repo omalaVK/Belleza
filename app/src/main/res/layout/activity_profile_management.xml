@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv1_prof"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF0F1"
+    tools:context=".Profile_management">
+
+    <Button
+        android:id="@+id/cart_btn"
+        android:layout_width="141dp"
+        android:layout_height="46dp"
+        android:text="@string/cart_btn"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_edit"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="183dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prof_topic"
+        app:srcCompat="@drawable/pant1" />
+
+    <TextView
+        android:id="@+id/prof_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/prof_topic"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prof_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/prof_tv1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/prof_t1"
+        android:layout_width="108dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/prof_t1"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prof_tv1" />
+
+    <TextView
+        android:id="@+id/prof_t2"
+        android:layout_width="113dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/prof_t2"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prof_t1" />
+
+    <TextView
+        android:id="@+id/prof_t3"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/prof_t3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prof_t2" />
+
+    <TextView
+        android:id="@+id/prof_t4"
+        android:layout_width="110dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/prof_t4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prof_t3" />
+
+    <TextView
+        android:id="@+id/prof_ta2"
+        android:layout_width="144dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/prof_ta2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/prof_t2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@+id/prof_t2" />
+
+    <TextView
+        android:id="@+id/prof_ta3"
+        android:layout_width="149dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/prof_ta3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/prof_t3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/prof_t3" />
+
+    <TextView
+        android:id="@+id/prof_ta4"
+        android:layout_width="148dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/prof_ta4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/prof_t4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/prof_t4" />
+
+    <TextView
+        android:id="@+id/prof_t5"
+        android:layout_width="108dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/prof_t5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prof_t4" />
+
+    <TextView
+        android:id="@+id/prof_ta5"
+        android:layout_width="143dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:text="@string/prof_ta5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/prof_t5"
+        app:layout_constraintStart_toEndOf="@+id/prof_t5" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btn_edit"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prof_t5"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/btn_delete"
+        app:backgroundTint="#574B6E"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toEndOf="@+id/btn_edit" />
+
+    <TextView
+        android:id="@+id/prof_ta1"
+        android:layout_width="130dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/prof_ta1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/prof_t1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toEndOf="@+id/prof_t1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
